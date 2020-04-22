@@ -1,4 +1,4 @@
-package com.idea.group.waklet.views
+package com.idea.group.wakelet.views
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,9 +9,9 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.idea.group.waklet.models.PhotographerModel
-import com.idea.group.waklet.R
-import com.idea.group.waklet.views.interfaces.OnPhotographerClicked
+import com.idea.group.wakelet.models.PhotographerModel
+import com.idea.group.wakelet.R
+import com.idea.group.wakelet.views.interfaces.OnPhotographerClicked
 import kotlinx.android.synthetic.main.row_item_photographer.view.*
 
 

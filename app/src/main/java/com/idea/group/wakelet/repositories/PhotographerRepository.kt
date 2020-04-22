@@ -1,8 +1,8 @@
-package com.idea.group.waklet.repositories
+package com.idea.group.wakelet.repositories
 
 import android.content.Context
-import com.idea.group.waklet.models.PhotographerModel
-import com.idea.group.waklet.WakletApplication
+import com.idea.group.wakelet.models.PhotographerModel
+import com.idea.group.wakelet.WakeletApplication
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
@@ -27,7 +27,7 @@ class PhotographerRepository
         val jsonAdapter: JsonAdapter<List<PhotographerModel>> =
             jsonParser.adapter<List<PhotographerModel>>(listMyData)
 
-        val jsonString = WakletApplication.appContext?.let { getJsonDataFromAsset(it,fileName) }
+        val jsonString = WakeletApplication.appContext?.let { getJsonDataFromAsset(it,fileName) }
             ?: return mutableListOf()
 
         val models : List<PhotographerModel>? =

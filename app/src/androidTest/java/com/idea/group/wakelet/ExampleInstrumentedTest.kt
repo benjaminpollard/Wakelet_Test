@@ -1,4 +1,4 @@
-package com.idea.group.waklet
+package com.idea.group.wakelet
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

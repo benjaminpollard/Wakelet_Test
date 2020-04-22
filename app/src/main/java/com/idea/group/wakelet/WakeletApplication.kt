@@ -1,10 +1,10 @@
-package com.idea.group.waklet
+package com.idea.group.wakelet
 
 import android.app.Application
 import android.content.Context
 
 
-class WakletApplication : Application() {
+class WakeletApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()

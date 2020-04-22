@@ -1,6 +1,6 @@
-package com.idea.group.waklet.controllers
+package com.idea.group.wakelet.controllers
 
-import com.idea.group.waklet.repositories.PhotographerRepository
+import com.idea.group.wakelet.repositories.PhotographerRepository
 
 class PhotographerController(private val photographerRepository : PhotographerRepository)
 {

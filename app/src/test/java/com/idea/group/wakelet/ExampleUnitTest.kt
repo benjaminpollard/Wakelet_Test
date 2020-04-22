@@ -1,4 +1,4 @@
-package com.idea.group.waklet
+package com.idea.group.wakelet
 
 import org.junit.Test
 

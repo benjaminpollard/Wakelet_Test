@@ -1,13 +1,13 @@
-package com.idea.group.waklet.views
+package com.idea.group.wakelet.views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
-import com.idea.group.waklet.controllers.PhotographerController
-import com.idea.group.waklet.R
-import com.idea.group.waklet.repositories.PhotographerRepository
-import com.idea.group.waklet.views.interfaces.OnPhotographerClicked
+import com.idea.group.wakelet.controllers.PhotographerController
+import com.idea.group.wakelet.R
+import com.idea.group.wakelet.repositories.PhotographerRepository
+import com.idea.group.wakelet.views.interfaces.OnPhotographerClicked
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() , OnPhotographerClicked {

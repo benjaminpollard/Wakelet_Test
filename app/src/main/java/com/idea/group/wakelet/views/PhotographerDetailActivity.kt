@@ -1,4 +1,4 @@
-package com.idea.group.waklet.views
+package com.idea.group.wakelet.views
 
 import android.os.Bundle
 import android.text.util.Linkify
@@ -6,10 +6,10 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.idea.group.waklet.controllers.PhotographerDetailController
-import com.idea.group.waklet.models.PhotographerModel
-import com.idea.group.waklet.R
-import com.idea.group.waklet.repositories.PhotographerRepository
+import com.idea.group.wakelet.controllers.PhotographerDetailController
+import com.idea.group.wakelet.models.PhotographerModel
+import com.idea.group.wakelet.R
+import com.idea.group.wakelet.repositories.PhotographerRepository
 
 import kotlinx.android.synthetic.main.activity_photographer_detail.*
 

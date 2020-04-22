@@ -1,4 +1,4 @@
-package com.idea.group.waklet.models
+package com.idea.group.wakelet.models
 
 import com.squareup.moshi.Json
 

@@ -1,4 +1,4 @@
-package com.idea.group.waklet.views.interfaces
+package com.idea.group.wakelet.views.interfaces
 
 interface OnPhotographerClicked
 {
