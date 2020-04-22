@@ -6,5 +6,6 @@ using these libs:
 Moshi,
 glide,
 material components,
-Cardview
+Cardview,
+lifecycle components
 
